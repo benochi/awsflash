@@ -1,20 +1,19 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import Flashcards from './components/Flashcards';
 import Questions from './components/Questions';
-import Navigation from './components/Navigation';
 import './App.css';
 
 const App = () => {
+  const [currentView, setCurrentView] = useState('flashcards');
+
   return (
-    <Router>
-      <div className="app">
-        <Navigation />
-        <Switch>
-          <Route exact path="/" component={Flashcards} />
-          <Route path="/questions" component={Questions} />
-        </Switch>
+    <div className="app">
+      {currentView === 'flashcards' ? <Flashcards /> : <Questions />}
+      <div className="navigation">
+        <button onClick={() => setCurrentView('flashcards')}>Flashcards</button>
+        <button onClick={() => setCurrentView('questions')}>Questions</button>
       </div>
-    </Router>
+    </div>
   );
 };
 

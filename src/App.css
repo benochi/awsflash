@@ -1,36 +1,19 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
 .app {
-  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   padding: 20px;
-}
-
-nav {
-  margin-bottom: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-}
-
-nav ul li {
-  background: #007bff;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .flashcards, .questions {
@@ -38,48 +21,60 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 600px;
 }
 
 .card, .question-card {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 0;
+  text-align: center;
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 5px;
-  width: 300px;
-  text-align: center;
-  margin: 20px 0;
 }
 
-.card h2, .question-card h2 {
-  margin-bottom: 10px;
-  color: black; /* Ensure the question text is black */
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
 }
 
-.card button, .question-card button {
-  margin-top: 10px;
-  padding: 10px;
-  background: #007bff;
+.navigation button, .add-toggle-button {
+  padding: 10px 20px;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.question-card ul {
-  list-style: none;
-  padding: 0;
-  text-align: left;
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 300px;
 }
 
-.question-card ul li {
-  background: #e0e0e0; 
-  color: black;
+.add-form input, .add-form textarea {
+  width: 100%;
   padding: 10px;
-  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.question-card ul li:hover {
-  background: #007bff;
-  color: white;
 }

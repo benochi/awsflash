@@ -123,5 +123,94 @@
       "question": "Which AWS service allows you to manage DNS records?",
       "choices": ["Amazon Route 53", "AWS Direct Connect", "Amazon CloudFront", "AWS VPN"],
       "answer": "Amazon Route 53"
-  }
+  },
+  {
+    "question": "Which IAM policy construct would make a policy snippet generic for all team members to access their user-specific folders in Amazon S3?",
+    "choices": [
+        "IAM Policy Variables",
+        "Policy Resource",
+        "Policy Principal",
+        "Policy Condition"
+    ],
+    "answer": "IAM Policy Variables"
+},
+{
+    "question": "For deploying multiple Availability Zone (AZ) workloads, which storage option should you use?",
+    "choices": [
+        "Amazon EFS volumes",
+        "AWS Gateway Storage BING mounts",
+        "Docker volumes"
+    ],
+    "answer": "Amazon EFS volumes"
+},
+{
+    "question": "For providing application-specific functionality to worldwide users and managing API access, which AWS service should you use?",
+    "choices": [
+        "CloudFront",
+        "Billing usage plans",
+        "Lambda custom authorizers",
+        "API Gateway usage plans"
+    ],
+    "answer": "API Gateway usage plans"
+},
+{
+    "question": "What is the monthly charge for 35 seconds of usage of a t2.micro instance?",
+    "choices": [
+        "$0.00",
+        "$0.01",
+        "$0.10",
+        "$0.60"
+    ],
+    "answer": "$0.00"
+},
+{
+    "question": "As a developer creating infrastructure using AWS CDK, what are the correct steps in order?",
+    "choices": [
+        "Write the CDK Code, Run `cdk synth`, Run `cdk deploy`, Monitor and Manage",
+        "Run `cdk deploy`, Write the CDK Code, Run `cdk synth`, Monitor and Manage",
+        "Write the CDK Code, Monitor and Manage, Run `cdk synth`, Run `cdk deploy`",
+        "Run `cdk synth`, Write the CDK Code, Monitor and Manage, Run `cdk deploy`"
+    ],
+    "answer": "Write the CDK Code, Run `cdk synth`, Run `cdk deploy`, Monitor and Manage"
+},
+{
+    "question": "To track latencies and IP address patterns in your application, which AWS services should you use?",
+    "choices": [
+        "ALB access logs",
+        "CloudWatch metrics",
+        "ALB request tracing",
+        "CloudTrail logs"
+    ],
+    "answer": "ALB access logs"
+},
+{
+    "question": "What is CloudWatch Metrics used for?",
+    "choices": [
+        "Tracking IP address patterns",
+        "Monitoring and recording resource utilization and application performance",
+        "Request tracing for load balancers",
+        "Logging changes to AWS resources"
+    ],
+    "answer": "Monitoring and recording resource utilization and application performance"
+},
+{
+    "question": "Which is the only resource-based policy that the IAM service supports?",
+    "choices": [
+        "Bucket policies",
+        "Role trust policies",
+        "Security group policies",
+        "VPC endpoint policies"
+    ],
+    "answer": "Role trust policies"
+},
+{
+    "question": "How do you expire items in a DynamoDB table?",
+    "choices": [
+        "By using a Time To Live (TTL) attribute",
+        "By setting a deletion timestamp in the item",
+        "By using a Lambda function to delete old items",
+        "By manually deleting the items"
+    ],
+    "answer": "By using a Time To Live (TTL) attribute"
+}
 ]
