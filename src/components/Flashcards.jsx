@@ -26,7 +26,7 @@ const Flashcards = () => {
 
   return (
     <div className="flashcards">
-      {materials.length > 0 && (
+      <div className="stats-and-flashcard">
         <div className="card">
           <h2>{materials[currentCard].title}</h2>
           <ul>
@@ -36,27 +36,27 @@ const Flashcards = () => {
           </ul>
           <button onClick={nextCard}>Next</button>
         </div>
-      )}
-      {!showAddForm && (
-        <button className="add-toggle-button" onClick={() => setShowAddForm(true)}>Add New Flashcard</button>
-      )}
-      {showAddForm && (
-        <div className="add-form">
-          <input
-            type="text"
-            placeholder="New title"
-            value={newTitle}
-            onChange={(e) => setNewTitle(e.target.value)}
-          />
-          <textarea
-            placeholder="New content (separate lines with Enter)"
-            value={newContent}
-            onChange={(e) => setNewContent(e.target.value)}
-          />
-          <button onClick={addNewMaterial}>Submit</button>
-          <button onClick={() => setShowAddForm(false)}>Cancel</button>
-        </div>
-      )}
+        {!showAddForm && (
+          <button className="add-toggle-button" onClick={() => setShowAddForm(true)}>Add New Flashcard</button>
+        )}
+        {showAddForm && (
+          <div className="add-form">
+            <input
+              type="text"
+              placeholder="New title"
+              value={newTitle}
+              onChange={(e) => setNewTitle(e.target.value)}
+            />
+            <textarea
+              placeholder="New content (separate lines with Enter)"
+              value={newContent}
+              onChange={(e) => setNewContent(e.target.value)}
+            />
+            <button onClick={addNewMaterial}>Submit</button>
+            <button onClick={() => setShowAddForm(false)}>Cancel</button>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
