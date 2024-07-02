@@ -1,0 +1,127 @@
+[
+  {
+      "question": "What is the default region when you create an AWS account?",
+      "choices": ["us-east-1", "us-west-1", "eu-west-1", "ap-southeast-1"],
+      "answer": "us-east-1"
+  },
+  {
+      "question": "Which AWS service allows you to run containerized applications without managing servers?",
+      "choices": ["Amazon EC2", "AWS Lambda", "AWS Fargate", "Amazon ECS"],
+      "answer": "AWS Fargate"
+  },
+  {
+      "question": "How can you improve the performance of read-heavy applications using DynamoDB?",
+      "choices": ["Use DAX", "Enable Multi-AZ", "Use RDS", "Enable Versioning"],
+      "answer": "Use DAX"
+  },
+  {
+      "question": "What is the primary use case for AWS Lambda?",
+      "choices": ["Running virtual machines", "Hosting static websites", "Running code in response to events", "Managing databases"],
+      "answer": "Running code in response to events"
+  },
+  {
+      "question": "How do you grant an EC2 instance access to S3 without embedding credentials?",
+      "choices": ["Use IAM role", "Store credentials in the instance", "Use a key pair", "Enable Multi-Factor Authentication"],
+      "answer": "Use IAM role"
+  },
+  {
+      "question": "Which service would you use to set up a REST API quickly?",
+      "choices": ["AWS Lambda", "Amazon API Gateway", "Amazon EC2", "Amazon S3"],
+      "answer": "Amazon API Gateway"
+  },
+  {
+      "question": "How can you ensure high availability for an RDS instance?",
+      "choices": ["Enable Multi-AZ", "Use DAX", "Enable Versioning", "Use IAM roles"],
+      "answer": "Enable Multi-AZ"
+  },
+  {
+      "question": "Which feature of S3 can you use to ensure data durability?",
+      "choices": ["Enable Versioning", "Use Multi-AZ", "Enable CloudTrail", "Use IAM roles"],
+      "answer": "Enable Versioning"
+  },
+  {
+      "question": "What is the benefit of using Amazon Aurora compared to traditional MySQL databases?",
+      "choices": ["Improved performance and availability", "Cheaper storage costs", "Better integration with EC2", "Easier to use"],
+      "answer": "Improved performance and availability"
+  },
+  {
+      "question": "How can you securely connect your on-premises network to your VPC?",
+      "choices": ["Use AWS Direct Connect", "Use S3", "Enable Multi-AZ", "Use IAM roles"],
+      "answer": "Use AWS Direct Connect"
+  },
+  {
+      "question": "What is a key feature of Amazon S3 that helps reduce storage costs for infrequently accessed data?",
+      "choices": ["S3 Intelligent-Tiering", "S3 Glacier", "S3 Standard-IA", "All of the above"],
+      "answer": "All of the above"
+  },
+  {
+      "question": "Which AWS service would you use for a managed database with support for MySQL and PostgreSQL?",
+      "choices": ["Amazon RDS", "Amazon DynamoDB", "Amazon S3", "AWS Lambda"],
+      "answer": "Amazon RDS"
+  },
+  {
+      "question": "What AWS service allows you to send push notifications to mobile devices?",
+      "choices": ["Amazon SNS", "Amazon SQS", "Amazon SES", "Amazon MQ"],
+      "answer": "Amazon SNS"
+  },
+  {
+      "question": "Which AWS service provides a CDN to distribute content globally with low latency?",
+      "choices": ["Amazon CloudFront", "Amazon S3", "Amazon RDS", "Amazon VPC"],
+      "answer": "Amazon CloudFront"
+  },
+  {
+      "question": "How can you automate the creation and management of AWS infrastructure?",
+      "choices": ["AWS CloudFormation", "AWS Elastic Beanstalk", "Amazon EC2", "AWS Lambda"],
+      "answer": "AWS CloudFormation"
+  },
+  {
+      "question": "What feature of IAM adds an extra layer of security by requiring a physical token?",
+      "choices": ["MFA", "IAM roles", "Access keys", "IAM policies"],
+      "answer": "MFA"
+  },
+  {
+      "question": "Which AWS service can be used to decouple applications with message queues?",
+      "choices": ["Amazon SQS", "Amazon SNS", "Amazon SES", "Amazon MQ"],
+      "answer": "Amazon SQS"
+  },
+  {
+      "question": "Which service would you use to manage a large-scale, distributed application that requires container orchestration?",
+      "choices": ["Amazon ECS", "AWS Lambda", "Amazon S3", "Amazon RDS"],
+      "answer": "Amazon ECS"
+  },
+  {
+      "question": "What is a key benefit of using AWS Fargate?",
+      "choices": ["No server management", "Cheaper costs", "Better performance", "Enhanced security"],
+      "answer": "No server management"
+  },
+  {
+      "question": "How do you enable automatic scaling for an EC2 instance?",
+      "choices": ["Use Auto Scaling groups", "Enable CloudTrail", "Enable CloudWatch", "Use IAM roles"],
+      "answer": "Use Auto Scaling groups"
+  },
+  {
+      "question": "Which service provides a fully managed NoSQL database?",
+      "choices": ["Amazon DynamoDB", "Amazon RDS", "Amazon S3", "AWS Lambda"],
+      "answer": "Amazon DynamoDB"
+  },
+  {
+      "question": "Which AWS service can be used for real-time data processing?",
+      "choices": ["Amazon Kinesis", "Amazon S3", "AWS Lambda", "Amazon RDS"],
+      "answer": "Amazon Kinesis"
+  },
+  {
+      "question": "What is the main purpose of Amazon CloudWatch?",
+      "choices": ["Monitoring and logging", "Data storage", "Database management", "Networking"],
+      "answer": "Monitoring and logging"
+  },
+  {
+      "question": "Which feature of Amazon S3 allows you to store multiple versions of an object?",
+      "choices": ["Versioning", "Lifecycle policies", "Replication", "Encryption"],
+      "answer": "Versioning"
+  },
+  {
+      "question": "Which AWS service allows you to manage DNS records?",
+      "choices": ["Amazon Route 53", "AWS Direct Connect", "Amazon CloudFront", "AWS VPN"],
+      "answer": "Amazon Route 53"
+  }
+]

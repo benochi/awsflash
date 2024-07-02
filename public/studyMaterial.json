@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Amazon EC2",
+    "content": [
+      "Instance Types: General Purpose, Compute Optimized, Memory Optimized, Storage Optimized, Accelerated Computing",
+      "Instance States: Pending, Running, Stopping, Stopped, Terminating",
+      "Pricing Models: On-Demand, Reserved, Spot, Dedicated Hosts"
+    ]
+  },
+  {
+    "title": "AWS Lambda",
+    "content": [
+      "Event Sources: S3, DynamoDB, Kinesis, SNS, CloudWatch Events",
+      "Lambda Functions: Stateless, automatically scaled, integrates with many AWS services",
+      "Execution Role: Permissions granted to the Lambda function"
+    ]
+  },
+  {
+    "title": "Amazon S3",
+    "content": [
+      "Storage Classes: Standard, Intelligent-Tiering, Standard-IA, One Zone-IA, Glacier, Glacier Deep Archive",
+      "Bucket Policies: Control access at the bucket level using JSON-based policies",
+      "Object Versioning: Maintain multiple versions of objects in a bucket"
+    ]
+  },
+  {
+    "title": "AWS IAM",
+    "content": [
+      "Users, Groups, Roles: Manage access to AWS resources",
+      "Policies: JSON documents that define permissions",
+      "MFA (Multi-Factor Authentication): Adds an extra layer of security"
+    ]
+  },
+  {
+    "title": "Amazon RDS",
+    "content": [
+      "DB Engines: MySQL, PostgreSQL, MariaDB, Oracle, SQL Server, Amazon Aurora",
+      "Features: Automated backups, Multi-AZ deployments, Read Replicas"
+    ]
+  },
+  {
+    "title": "Amazon DynamoDB",
+    "content": [
+      "Table Structure: Tables, Items, Attributes",
+      "Read/Write Capacity Modes: Provisioned, On-Demand",
+      "DAX (DynamoDB Accelerator): In-memory caching for DynamoDB"
+    ]
+  },
+  {
+    "title": "Amazon ECS & EKS",
+    "content": [
+      "ECS: Supports Docker containers, integrates with Fargate for serverless compute",
+      "EKS: Managed Kubernetes service, supports native Kubernetes applications"
+    ]
+  },
+  {
+    "title": "Amazon CloudFront",
+    "content": [
+      "CDN (Content Delivery Network): Distributes content globally with low latency",
+      "Distribution Types: Web, RTMP",
+      "Edge Locations: Data centers used for caching content"
+    ]
+  },
+  {
+    "title": "AWS CloudFormation",
+    "content": [
+      "Templates: Define infrastructure as code",
+      "Stacks: Manage a collection of AWS resources",
+      "Stack Sets: Manage stacks across multiple accounts and regions"
+    ]
+  },
+  {
+    "title": "Amazon SNS & SQS",
+    "content": [
+      "SNS: Pub/Sub messaging service",
+      "SQS: Queue service for message decoupling, supports Standard and FIFO queues"
+    ]
+  }
+]
